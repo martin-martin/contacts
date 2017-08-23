@@ -43,7 +43,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        Life is good.
+        Life is good, even if it sometimes is invisible :)
         <ListContacts
           onDeleteContact={this.removeContact}
           contacts={this.state.contacts}/>
